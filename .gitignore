@@ -1,0 +1,28 @@
+# --- Go ---
+# Compiled binary (go build ./cmd/dealstalker)
+/dealstalker
+/bin/
+*.exe
+*.test
+*.out
+
+# Coverage reports
+coverage.*
+
+# Live reload (air)
+/tmp/
+
+# --- Secrets & local config ---
+.env
+.env.*
+!.env.example
+diagrams/
+
+# --- Frontend (web/) ---
+node_modules/
+.next/
+
+# --- OS & editor ---
+.DS_Store
+.idea/
+.vscode/

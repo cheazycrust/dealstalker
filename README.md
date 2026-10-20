@@ -19,6 +19,10 @@ Self-hosted price tracker that automatically checks product prices on comparison
 - **Frontend:** Next.js
 - **Deployment:** Docker / Docker Compose
 
+## Documentation
+
+See [Domain model](docs/domain-model.md).
+
 ## License
 
 See [LICENSE](LICENSE).

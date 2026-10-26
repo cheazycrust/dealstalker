@@ -23,6 +23,22 @@ Self-hosted price tracker that automatically checks product prices on comparison
 
 See [Domain model](docs/domain-model.md).
 
+## Development
+
+Requirements: Go and Docker.
+
+Start the local database:
+
+```bash
+docker compose up -d
+```
+
+Apply the database migrations:
+
+```bash
+go tool goose -dir migrations postgres "postgres://dealstalker:dealstalker@localhost:5432/dealstalker?sslmode=disable" up
+```
+
 ## License
 
 See [LICENSE](LICENSE).
